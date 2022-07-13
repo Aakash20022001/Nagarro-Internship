@@ -6,6 +6,8 @@ html, body {
 
 .container {
     width: 360px;
+    background-color: black;
+    color:white;
 }
 
 #inputField {
