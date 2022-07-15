@@ -1,0 +1,27 @@
+#box {
+/* background-color: antiquewhite;
+ */
+/* background-image:linear-gradient(to right,#a0969a,#5a093f ); */
+background-color: #4158D0;
+background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+
+ height:300px ;
+width:700px;
+visibility:hidden;
+
+}
+body{
+    /* background-color: aqua;
+     */
+     /* background-image: linear-gradient(to right,#947f07,#0f2d4e ); */
+     /* background-image: linear-gradient(to right, #DECBA4, #3E5151); */
+     background-image: linear-gradient(to right, #434343 0%, black 100%);
+}
+#box.show{
+    visibility: visible;
+}
+.cross
+{
+    color: black;
+
+}
