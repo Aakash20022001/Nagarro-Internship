@@ -56,7 +56,7 @@ $(document).ready(function () {
             $("#passwordvalidation").html("Please enter a valid password");
             $("#passwordvalidation").css("color", "red");
             $("#passwordDiv").show();
-            $("#passwordDiv").attr('class','text-warning border rounded');
+            $("#passwordDiv").attr('class','text-success border rounded');
             pass = false;
             return false;
         } else {
