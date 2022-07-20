@@ -1,0 +1,10 @@
+body{
+    background-color: #c9c9c9;
+    /* background-image: url("https://www.transparenttextures.com/patterns/notebook.png"); */
+}
+.box{
+    border:2px solid black;
+    padding:15px;
+    padding-bottom: 30px;
+    border-radius: 5px;
+}
