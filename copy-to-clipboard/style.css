@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+
+body{
+    height:100vh;
+    /* background: #dfcc21; */
+    background-image: linear-gradient(crimson,lightgreen,cyan)
+    
+}
+h1{
+    text-align: center;
+    margin-top: 15px;
+}
+.main{
+    display: flex;
+    justify-content: center;
+}
+.textbox1,.textbox2{
+    margin-top: 3vh;
+    padding:30px;
+    margin-left: 20px;
+    min-width: 360px;
+    border: 0;
+    
+
+}
+.btntext{
+    margin-top: 3vh;
+    margin-left: 50px;
+    width: 50%;
+    min-width: 200px;
+    margin: 20px auto;
+
+
+}
+.btntext button{
+    width: 150px;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: black;
+    color: white;
+    margin: 5px;
+}
+
+textarea{
+    padding: 30px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: blanchedalmond;
+}
+
+.copybtn,.pastebtn{
+    border: 2px solid black;
+    margin-right: 9%;
+    cursor: pointer;
+    width: 10%;
+}
